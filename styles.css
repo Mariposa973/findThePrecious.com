@@ -14,7 +14,20 @@ li {
     padding: 0.5rem;
 }
 
-#active{
+.active{
     background-color: #ccc;
     color: #333;
+}
+
+.center-me {
+    margin: 0 auto;
+}
+
+.box-one {
+    background-color: grey;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border: none;
+    margin: 60px;
 }
