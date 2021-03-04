@@ -1,6 +1,4 @@
-body {
-    margin: 0px;
-}
+
 
 nav {
     background-color: #333;
@@ -18,14 +16,18 @@ li {
     padding: 1rem;
 }
 
-.active{
+.active {
     background-color: #ccc;
     color: #333;
 }
 
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .carousel {
     margin: 0px;
-    background-color: gray;
+    background-color: #ccc;
     padding: 10px;
     height: 100px;
     width: auto ;
@@ -35,37 +37,40 @@ li {
     text-align: center;
     font-size: 18pt;
 }
-#commas {
+
+span {
     font-size: 12pt;
+    color: #ccc;
 }
 
-.boxes {
+section {
+    text-align: center;
+}
+
+article {
     display: inline-block;
-}
-
-#box-one {
-    background-color: gray;
+    background-color: #ccc;
     padding: 10px;
     height: 100px;
-    width: 100px;
-    border: none;
-    margin: 60px;
+    width: 20%;
+    border: 0  ;
+    margin: 1%;
+
 }
 
-#box-two {
-    background-color: gray;
-    padding: 10px;
-    height: 100px;
-    width: 100px;
-    border: none;
-    margin: 60px;
+form {
+    border-top: 4px solid #ccc;
+    margin-top: 25px;
 }
 
-#box-three {
-    background-color: gray;
-    padding: 10px;
-    height: 100px;
-    width: 100px;
-    border: none;
-    margin: 60px;
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 20px;
+}
+
+textarea, input {
+    display: block;
+    width: 80%;
 }
