@@ -1,17 +1,21 @@
+body {
+    margin: 0px;
+}
+
 nav {
     background-color: #333;
 }
 
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
+    padding: 0px;
     color: #ccc;
 }
 
 li {
     display: inline-block;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .active{
@@ -19,15 +23,49 @@ li {
     color: #333;
 }
 
-.center-me {
-    margin: 0 auto;
+.carousel {
+    margin: 0px;
+    background-color: gray;
+    padding: 10px;
+    height: 100px;
+    width: auto ;
 }
 
-.box-one {
-    background-color: grey;
+#fellows {
+    text-align: center;
+    font-size: 18pt;
+}
+#commas {
+    font-size: 12pt;
+}
+
+.boxes {
+    display: inline-block;
+}
+
+#box-one {
+    background-color: gray;
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 60px;
+}
+
+#box-two {
+    background-color: gray;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 60px;
+}
+
+#box-three {
+    background-color: gray;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
     border: none;
     margin: 60px;
 }
